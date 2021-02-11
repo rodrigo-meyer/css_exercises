@@ -1,0 +1,104 @@
+/** This is a basic Firtst CSS style for HTML **/
+/** Keep in mind that it is for demonstration purposes only and not necessarily an application of Graphic Design theory. **/ 
+
+@charset "UTF-8";
+
+/** General page (body) style **/
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    background-color: goldenrod;
+}
+
+/** Page Name or something greater **/
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color:#900000;
+}
+
+/** First Tittle **/
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333333;
+}
+
+/** Subtitle **/
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+/** Topic style **/
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #900000;
+}
+
+/** Footer text style **/
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#111111;
+}
+
+/** Smaller text style **/
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#111111;
+}
+
+/** Eventual hr line **/
+hr {
+    color: #666666;
+    padding-top: 6px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 3px;
+}
+
+/** Link Personalization, Normal and Visited **/
+a:link, a:visited {
+    color: #900000;
+    text-decoration: none;
+  }
+  
+  /** Link Personalization, Under mouse cursor **/
+  a:hover, a:active {
+    color: #900000;
+  }
+}
+
+/** Personalize Pharagraphs in HTML **/
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #111111;
+}
+
+/** Mark text style witrh RGB colors **/
+mark {
+    font-family: monospace;
+    font-size: 12px;
+    background-color: rgb(0, 200, 200);
+    padding-top: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 0px;
+}
+
+/** <pre> in HTML is a indentation style for <code> **/
+pre {
+    background-color: #999999;
+    font-family: monospace;
+    font-size: 12px;
+    color: #333333;
+    border-style: solid;
+    border-color: #666666;
+    border-width: 18px;
+    padding-top: 6px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 3px;
+}
